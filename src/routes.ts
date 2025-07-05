@@ -5,7 +5,7 @@ import Register from "./pages/home/Register.svelte";
 
 export default {
   "/": Landing,
-  "/login": Login,
+  "/login": Dashboard,
   "/register": Register,
 
   // Dashboard pages

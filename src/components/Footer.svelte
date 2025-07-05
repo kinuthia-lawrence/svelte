@@ -1,3 +1,8 @@
+<script lang="ts">
+  //determine the current year
+  const currentYear = new Date().getFullYear();
+</script>
+
 <footer class="bg-gray-800 text-white p-4 text-center">
-  <p>&copy; 2025 Client Management System. All rights reserved.</p>
+  <p>&copy; {currentYear} Client Management System. All rights reserved.</p>
 </footer>
